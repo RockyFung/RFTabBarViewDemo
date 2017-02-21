@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C7FC6121E5BEF8B00A0523B /* RFTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FC60F1E5BEF8B00A0523B /* RFTabBarView.m */; };
+		5C7FC6131E5BEF8B00A0523B /* RFTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FC6111E5BEF8B00A0523B /* RFTabButton.m */; };
+		5C7FC6171E5C10AE00A0523B /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FC6161E5C10AE00A0523B /* UINavigationController+FDFullscreenPopGesture.m */; };
+		5C7FC61B1E5C219100A0523B /* TabBarBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7FC61A1E5C219100A0523B /* TabBarBack@2x.png */; };
 		5CA57ECC1E5AC6F000528CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57ECB1E5AC6F000528CC2 /* main.m */; };
 		5CA57ECF1E5AC6F000528CC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57ECE1E5AC6F000528CC2 /* AppDelegate.m */; };
-		5CA57ED21E5AC6F000528CC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57ED11E5AC6F000528CC2 /* ViewController.m */; };
-		5CA57ED51E5AC6F000528CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57ED31E5AC6F000528CC2 /* Main.storyboard */; };
 		5CA57ED71E5AC6F000528CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57ED61E5AC6F000528CC2 /* Assets.xcassets */; };
 		5CA57EDA1E5AC6F000528CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57ED81E5AC6F000528CC2 /* LaunchScreen.storyboard */; };
 		5CA57EE51E5AC6F000528CC2 /* RFTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57EE41E5AC6F000528CC2 /* RFTabBarControllerDemoTests.m */; };
 		5CA57EF01E5AC6F000528CC2 /* RFTabBarControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57EEF1E5AC6F000528CC2 /* RFTabBarControllerDemoUITests.m */; };
+		5CA57EFF1E5AC75C00528CC2 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57EFE1E5AC75C00528CC2 /* UIView+Frame.m */; };
+		5CA57F021E5AC7A600528CC2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57F011E5AC7A600528CC2 /* MainTabBarController.m */; };
+		5CA57F0B1E5ACD5C00528CC2 /* tabbar_icon_found_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F0A1E5ACD5C00528CC2 /* tabbar_icon_found_highlight@2x.png */; };
+		5CA57F0D1E5ACD6800528CC2 /* tabbar_icon_found_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F0C1E5ACD6800528CC2 /* tabbar_icon_found_normal@2x.png */; };
+		5CA57F0F1E5ACD7900528CC2 /* tabbar_icon_me_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F0E1E5ACD7900528CC2 /* tabbar_icon_me_highlight@2x.png */; };
+		5CA57F111E5ACD8000528CC2 /* tabbar_icon_me_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F101E5ACD8000528CC2 /* tabbar_icon_me_normal@2x.png */; };
+		5CA57F131E5ACD8F00528CC2 /* tabbar_icon_media_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F121E5ACD8F00528CC2 /* tabbar_icon_media_highlight@2x.png */; };
+		5CA57F151E5ACD9500528CC2 /* tabbar_icon_media_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F141E5ACD9500528CC2 /* tabbar_icon_media_normal@2x.png */; };
+		5CA57F171E5ACD9C00528CC2 /* tabbar_icon_news_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F161E5ACD9C00528CC2 /* tabbar_icon_news_highlight@2x.png */; };
+		5CA57F191E5ACDA100528CC2 /* tabbar_icon_news_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F181E5ACDA100528CC2 /* tabbar_icon_news_normal@2x.png */; };
+		5CA57F1B1E5ACDA600528CC2 /* tabbar_icon_reader_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F1A1E5ACDA600528CC2 /* tabbar_icon_reader_highlight@2x.png */; };
+		5CA57F1D1E5ACDAC00528CC2 /* tabbar_icon_reader_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F1C1E5ACDAC00528CC2 /* tabbar_icon_reader_normal@2x.png */; };
+		5CA57F201E5AD79C00528CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA57F1E1E5AD79C00528CC2 /* Main.storyboard */; };
+		5CA57F821E5AF02D00528CC2 /* RFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57F811E5AF02D00528CC2 /* RFNavigationController.m */; };
+		5CA57F851E5AF12B00528CC2 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA57F841E5AF12B00528CC2 /* RFViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C7FC60E1E5BEF8B00A0523B /* RFTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTabBarView.h; sourceTree = "<group>"; };
+		5C7FC60F1E5BEF8B00A0523B /* RFTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTabBarView.m; sourceTree = "<group>"; };
+		5C7FC6101E5BEF8B00A0523B /* RFTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTabButton.h; sourceTree = "<group>"; };
+		5C7FC6111E5BEF8B00A0523B /* RFTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTabButton.m; sourceTree = "<group>"; };
+		5C7FC6151E5C10AE00A0523B /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		5C7FC6161E5C10AE00A0523B /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		5C7FC61A1E5C219100A0523B /* TabBarBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarBack@2x.png"; sourceTree = "<group>"; };
 		5CA57EC71E5AC6F000528CC2 /* RFTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA57ECB1E5AC6F000528CC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CA57ECD1E5AC6F000528CC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CA57ECE1E5AC6F000528CC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5CA57ED01E5AC6F000528CC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5CA57ED11E5AC6F000528CC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5CA57ED41E5AC6F000528CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CA57ED61E5AC6F000528CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CA57ED91E5AC6F000528CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CA57EDB1E5AC6F000528CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +72,25 @@
 		5CA57EEB1E5AC6F000528CC2 /* RFTabBarControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFTabBarControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA57EEF1E5AC6F000528CC2 /* RFTabBarControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFTabBarControllerDemoUITests.m; sourceTree = "<group>"; };
 		5CA57EF11E5AC6F000528CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA57EFD1E5AC75C00528CC2 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		5CA57EFE1E5AC75C00528CC2 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		5CA57F001E5AC7A600528CC2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		5CA57F011E5AC7A600528CC2 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		5CA57F0A1E5ACD5C00528CC2 /* tabbar_icon_found_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_found_highlight@2x.png"; sourceTree = "<group>"; };
+		5CA57F0C1E5ACD6800528CC2 /* tabbar_icon_found_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_found_normal@2x.png"; sourceTree = "<group>"; };
+		5CA57F0E1E5ACD7900528CC2 /* tabbar_icon_me_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_me_highlight@2x.png"; sourceTree = "<group>"; };
+		5CA57F101E5ACD8000528CC2 /* tabbar_icon_me_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_me_normal@2x.png"; sourceTree = "<group>"; };
+		5CA57F121E5ACD8F00528CC2 /* tabbar_icon_media_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_media_highlight@2x.png"; sourceTree = "<group>"; };
+		5CA57F141E5ACD9500528CC2 /* tabbar_icon_media_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_media_normal@2x.png"; sourceTree = "<group>"; };
+		5CA57F161E5ACD9C00528CC2 /* tabbar_icon_news_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_news_highlight@2x.png"; sourceTree = "<group>"; };
+		5CA57F181E5ACDA100528CC2 /* tabbar_icon_news_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_news_normal@2x.png"; sourceTree = "<group>"; };
+		5CA57F1A1E5ACDA600528CC2 /* tabbar_icon_reader_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_reader_highlight@2x.png"; sourceTree = "<group>"; };
+		5CA57F1C1E5ACDAC00528CC2 /* tabbar_icon_reader_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_reader_normal@2x.png"; sourceTree = "<group>"; };
+		5CA57F1F1E5AD79C00528CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CA57F801E5AF02D00528CC2 /* RFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFNavigationController.h; sourceTree = "<group>"; };
+		5CA57F811E5AF02D00528CC2 /* RFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFNavigationController.m; sourceTree = "<group>"; };
+		5CA57F831E5AF12B00528CC2 /* RFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
+		5CA57F841E5AF12B00528CC2 /* RFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +118,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C7FC60D1E5BEF8B00A0523B /* RFTabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				5C7FC60E1E5BEF8B00A0523B /* RFTabBarView.h */,
+				5C7FC60F1E5BEF8B00A0523B /* RFTabBarView.m */,
+				5C7FC6101E5BEF8B00A0523B /* RFTabButton.h */,
+				5C7FC6111E5BEF8B00A0523B /* RFTabButton.m */,
+			);
+			path = RFTabBarView;
+			sourceTree = "<group>";
+		};
+		5C7FC6141E5C10AE00A0523B /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5C7FC6151E5C10AE00A0523B /* UINavigationController+FDFullscreenPopGesture.h */,
+				5C7FC6161E5C10AE00A0523B /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
 		5CA57EBE1E5AC6EF00528CC2 = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +163,16 @@
 			children = (
 				5CA57ECD1E5AC6F000528CC2 /* AppDelegate.h */,
 				5CA57ECE1E5AC6F000528CC2 /* AppDelegate.m */,
-				5CA57ED01E5AC6F000528CC2 /* ViewController.h */,
-				5CA57ED11E5AC6F000528CC2 /* ViewController.m */,
-				5CA57ED31E5AC6F000528CC2 /* Main.storyboard */,
+				5CA57F001E5AC7A600528CC2 /* MainTabBarController.h */,
+				5CA57F011E5AC7A600528CC2 /* MainTabBarController.m */,
+				5CA57F801E5AF02D00528CC2 /* RFNavigationController.h */,
+				5CA57F811E5AF02D00528CC2 /* RFNavigationController.m */,
+				5CA57F831E5AF12B00528CC2 /* RFViewController.h */,
+				5CA57F841E5AF12B00528CC2 /* RFViewController.m */,
+				5C7FC60D1E5BEF8B00A0523B /* RFTabBarView */,
 				5CA57ED61E5AC6F000528CC2 /* Assets.xcassets */,
 				5CA57ED81E5AC6F000528CC2 /* LaunchScreen.storyboard */,
+				5CA57F1E1E5AD79C00528CC2 /* Main.storyboard */,
 				5CA57EDB1E5AC6F000528CC2 /* Info.plist */,
 				5CA57ECA1E5AC6F000528CC2 /* Supporting Files */,
 			);
@@ -117,6 +182,10 @@
 		5CA57ECA1E5AC6F000528CC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C7FC6141E5C10AE00A0523B /* FDFullscreenPopGesture */,
+				5CA57F091E5ACD4800528CC2 /* icons */,
+				5CA57EFD1E5AC75C00528CC2 /* UIView+Frame.h */,
+				5CA57EFE1E5AC75C00528CC2 /* UIView+Frame.m */,
 				5CA57ECB1E5AC6F000528CC2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +207,24 @@
 				5CA57EF11E5AC6F000528CC2 /* Info.plist */,
 			);
 			path = RFTabBarControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		5CA57F091E5ACD4800528CC2 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				5C7FC61A1E5C219100A0523B /* TabBarBack@2x.png */,
+				5CA57F0A1E5ACD5C00528CC2 /* tabbar_icon_found_highlight@2x.png */,
+				5CA57F0E1E5ACD7900528CC2 /* tabbar_icon_me_highlight@2x.png */,
+				5CA57F0C1E5ACD6800528CC2 /* tabbar_icon_found_normal@2x.png */,
+				5CA57F101E5ACD8000528CC2 /* tabbar_icon_me_normal@2x.png */,
+				5CA57F121E5ACD8F00528CC2 /* tabbar_icon_media_highlight@2x.png */,
+				5CA57F141E5ACD9500528CC2 /* tabbar_icon_media_normal@2x.png */,
+				5CA57F161E5ACD9C00528CC2 /* tabbar_icon_news_highlight@2x.png */,
+				5CA57F181E5ACDA100528CC2 /* tabbar_icon_news_normal@2x.png */,
+				5CA57F1A1E5ACDA600528CC2 /* tabbar_icon_reader_highlight@2x.png */,
+				5CA57F1C1E5ACDAC00528CC2 /* tabbar_icon_reader_normal@2x.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +337,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA57EDA1E5AC6F000528CC2 /* LaunchScreen.storyboard in Resources */,
+				5CA57F171E5ACD9C00528CC2 /* tabbar_icon_news_highlight@2x.png in Resources */,
+				5CA57F0D1E5ACD6800528CC2 /* tabbar_icon_found_normal@2x.png in Resources */,
+				5CA57F0F1E5ACD7900528CC2 /* tabbar_icon_me_highlight@2x.png in Resources */,
+				5CA57F1D1E5ACDAC00528CC2 /* tabbar_icon_reader_normal@2x.png in Resources */,
+				5CA57F111E5ACD8000528CC2 /* tabbar_icon_me_normal@2x.png in Resources */,
+				5CA57F151E5ACD9500528CC2 /* tabbar_icon_media_normal@2x.png in Resources */,
+				5C7FC61B1E5C219100A0523B /* TabBarBack@2x.png in Resources */,
+				5CA57F201E5AD79C00528CC2 /* Main.storyboard in Resources */,
+				5CA57F0B1E5ACD5C00528CC2 /* tabbar_icon_found_highlight@2x.png in Resources */,
+				5CA57F131E5ACD8F00528CC2 /* tabbar_icon_media_highlight@2x.png in Resources */,
+				5CA57F191E5ACDA100528CC2 /* tabbar_icon_news_normal@2x.png in Resources */,
+				5CA57F1B1E5ACDA600528CC2 /* tabbar_icon_reader_highlight@2x.png in Resources */,
 				5CA57ED71E5AC6F000528CC2 /* Assets.xcassets in Resources */,
-				5CA57ED51E5AC6F000528CC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +374,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA57ED21E5AC6F000528CC2 /* ViewController.m in Sources */,
+				5CA57EFF1E5AC75C00528CC2 /* UIView+Frame.m in Sources */,
+				5C7FC6121E5BEF8B00A0523B /* RFTabBarView.m in Sources */,
+				5CA57F021E5AC7A600528CC2 /* MainTabBarController.m in Sources */,
+				5C7FC6171E5C10AE00A0523B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				5CA57ECF1E5AC6F000528CC2 /* AppDelegate.m in Sources */,
+				5CA57F851E5AF12B00528CC2 /* RFViewController.m in Sources */,
+				5CA57F821E5AF02D00528CC2 /* RFNavigationController.m in Sources */,
 				5CA57ECC1E5AC6F000528CC2 /* main.m in Sources */,
+				5C7FC6131E5BEF8B00A0523B /* RFTabButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +418,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5CA57ED31E5AC6F000528CC2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5CA57ED41E5AC6F000528CC2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5CA57ED81E5AC6F000528CC2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5CA57ED91E5AC6F000528CC2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA57F1E1E5AD79C00528CC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA57F1F1E5AD79C00528CC2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,6 +620,7 @@
 				5CA57EF61E5AC6F000528CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CA57EF71E5AC6F000528CC2 /* Build configuration list for PBXNativeTarget "RFTabBarControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +629,7 @@
 				5CA57EF91E5AC6F000528CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CA57EFA1E5AC6F000528CC2 /* Build configuration list for PBXNativeTarget "RFTabBarControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +638,7 @@
 				5CA57EFC1E5AC6F000528CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
